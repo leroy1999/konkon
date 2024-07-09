@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  div.container {
+    width: 100vw;
+    text-align: center;
+    background: #fff;
+    padding: 1.3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.8rem;
+    h1 {
+      font: 2.3rem normal;
+      border-bottom: solid 1px;
+      color: #333;
+      text-align: left;
+    }
+    .checkboxes {
+      display: block;
+      margin: auto;
+      label {
+        display: inline-block;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+        text-align: left;
+      }
+    }
+    button {
+      padding: 1rem 2rem;
+      background-color: #5cb85c;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      :hover {
+        background-color: #4cae4c;
+      }
+    }
+    .result {
+      background-color: #aaeeee;
+      margin-top: 1rem;
+      padding: 2rem;
+      font-size: 1.2rem;
+      color: #333;
+    }
+  }
+}

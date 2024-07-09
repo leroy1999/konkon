@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>献立ジェネレーター</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>献立ジェネレーター</h1>
+        <div class="checkboxes">
+            <label><input type="checkbox" id="staple"> 主食</label>
+            <label><input type="checkbox" id="mainDish"> 主菜</label>
+            <label><input type="checkbox" id="sideDish"> 副菜</label>
+            <label><input type="checkbox" id="sideDish2"> 副副菜</label>
+            <label><input type="checkbox" id="soup"> 汁物</label>
+            <label><input type="checkbox" id="dessert"> デザート</label>
+        </div>
+        <button id="generateButton">メニュー生成</button>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
